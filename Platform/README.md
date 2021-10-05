@@ -21,16 +21,16 @@ You need to download and install Lobe to your local system to complete this chal
 In the [data repository](https://github.com/fellowship/upskill_challenges/tree/main/Platform/data) you'll find a dataset of 40 randomized jean images. Each of the jeans belongs to one of four fits:
 
 - **Men 501**
-- **Men 511**
+- **Men 505**
 - **Women 501** 
-- **Women 721**
+- **Women 711**
 
 Your goal for this challenge is to train and use a model to predict which fit each randomized image belongs to. The model must predict exactly one of the following labels for each image: 
 
 - **m_501**
-- **m_511**
+- **m_505**
 - **w_501**
-- **w_721**
+- **w_711**
 
 Start by building a data set of training images from the web. Your dataset will have to include images from each of the 4 styles, and can't include any of the 40 images from the challenge data. While building your dataset make sure you re-name the images to reflect the fit and image number: m_501_1.jpg, m_501_2.jpg, etc. 
 
